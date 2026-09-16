@@ -54,3 +54,40 @@ ls
 cd ..
 vim first_file.txt
 ls
+mkdir hw1
+cd hw1
+vim 1.c
+vim 2.c
+vim 3.c
+vim 4.c
+vim 5.c
+git init
+git add .
+git commit -m "hw1"
+git config --global user.email "ordyanani@gmail.com"
+git commit -m "hw1"
+git remote add origin git@github.com:aniordyan/aua-os.git
+git push -u origin master
+git status
+git push -u origin master
+git remote add origin https://github.com/aniordyan/aua-os.git
+ssh-keygen -t ed25519 -C "ordyanani@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+git push -u origin master
+ls
+cd hw1/
+gcc 1.c -o 1
+./1
+vim 1.c
+cd hw1
+gcc 2.c -o 2
+./2
+gcc 3.c -o 3
+./3
+vim 4.c
+vim 5.c
+ls
+tree workshop/
+cat workshop/project1.txt 
+exit
