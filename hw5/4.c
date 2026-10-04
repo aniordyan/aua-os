@@ -14,8 +14,7 @@ int main() {
         arr[i] = malloc(51 * sizeof(char));
         if (arr[i] == NULL) {
             printf("Memory allocation failed.\n");
-            return 1;
-
+           
             for (int j = 0; j < i; j++) {
                 free(arr[j]);
             }
