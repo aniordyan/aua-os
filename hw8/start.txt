@@ -1,0 +1,9 @@
+Requirements:
+
+    At the start, prompt the user (via standard input) to type the source file path, then the destination file path
+    Open the source for reading (O_RDONLY). Open/create the destination with O_WRONLY|O_CREAT|O_TRUNC and mode 0644.
+    Repeatedly read from source and write to destination until EOF (read returns 0).
+    Count and print the total number of bytes copied.
+
+    Print an error if any system call fails.
+
